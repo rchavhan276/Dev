@@ -1,0 +1,7 @@
+version: '1'
+services:
+  app:
+    image: rahul848/myrepo:$(Build.BuildNumber)
+    container_name: app_main
+    ports:
+      - 80:80
