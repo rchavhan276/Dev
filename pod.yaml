@@ -8,3 +8,5 @@ spec:
     image: rahul848/myrepo:"0.0.1-17"
     ports:
     - containerPort: 80
+    securityContext:
+      allowPrivilegeEscalation: false
